@@ -9,6 +9,8 @@ const fizzBuzz = num => {
     console.log('Fizz');
   } else if (num % 5 === 0) {
     console.log('Buzz');
+  } else {
+    console.log(num);
   }
   fizzBuzz(num + 1);
 };
